@@ -1,0 +1,39 @@
+[root]
+music_dir = "."
+
+[sources]
+enabled = ["dizzylab", "vocadb", "vcpedia"]
+max_candidates = 5
+
+[matching]
+auto_apply_score = 0.85
+review_score = 0.65
+require_track_count_match = true
+
+[llm]
+provider = "openai-compatible"
+base_url = ""
+api_key_env = "MUSICLAW_LLM_API_KEY"
+model_env = "MUSICLAW_LLM_MODEL"
+base_url_env = "MUSICLAW_LLM_BASE_URL"
+temperature = 0.1
+enabled = true
+
+[network]
+timeout_seconds = 30
+user_agent = "musiclaw/0.1"
+
+[processing]
+album_workers = 4
+query_workers = 4
+parallel_profile = "balanced"
+
+[tags]
+rename_template = "{track:02d}. {title}"
+write_cover = true
+write_extended_fields = true
+write_tags = true
+rename_files = true
+
+[cache]
+dir = "cache"
