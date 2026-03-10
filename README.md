@@ -39,8 +39,7 @@
 ### 前提条件 | Prerequisites
 
 - Python 3.10+
-- (可选) OpenAI API 密钥（用于 LLM 增强）  (推荐使用 Strong Recommendation)
-  (Optional) OpenAI API key for LLM enhancement.
+- (可选) OpenAI API 密钥（用于 LLM 增强）(推荐使用) \\ (Optional) OpenAI API key for LLM enhancement. (Strong Recommendation)
 
 ### 安装 | Installation
 
