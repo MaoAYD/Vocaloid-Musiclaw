@@ -1,8 +1,9 @@
-# MusicLaw Release
+# MusicLaw
 
 - English documentation: `README.en.md`
 - 中文文档：`README.zh-CN.md`
 
-This release package is a cleaned, publishable build of `musiclaw` for metadata collection and tagging of VOCALOID and synthetic singing software doujin albums.
+`MusicLaw` is a local-first metadata collection and tagging tool designed for VOCALOID, UTAU, Synthesizer V, CeVIO, VOICEROID-derived singing projects, and other synthetic singing software doujin albums.
 
-这个发布包是整理后的 `musiclaw` 可发布版本，专门面向 VOCALOID 与各类合成音声软件同人专辑的信息抓取与标签整理。
+It scans album folders, searches source sites such as `VocaDB`, `VCPedia`, and `dizzylab`, combines site-specific parsing with an optional OpenAI-compatible LLM workflow, and writes reviewed metadata back to your local files.
+
