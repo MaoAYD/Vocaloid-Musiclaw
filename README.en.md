@@ -11,7 +11,6 @@ This `release/` package is sanitized for publication:
 - source code only under `src/musiclaw`
 - default configuration files only
 - empty runtime folders for `cache`, `reports`, `snapshots`, `logs`, and `temp`
-- no test data, no user music files, no generated reports, no cached CSVs, and no snapshots
 
 ## Main Features
 
@@ -196,7 +195,7 @@ release/
 
 ## Privacy and Safety Notes
 
-- this release intentionally excludes generated caches and test artifacts
+- The current release version will not upload any of your local information.
 - your own reports, snapshots, and temp files will be created only after you use the tool
 - `match` is review-first; it does not directly modify your music files
 - `apply` only works on reviewed and approved results
